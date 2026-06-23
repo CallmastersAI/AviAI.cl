@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "revela-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3030,
+      "env": {
+        "NODE_OPTIONS": "--max-old-space-size=4096"
+      }
+    }
+  ]
+}
