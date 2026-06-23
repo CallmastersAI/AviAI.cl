@@ -1,0 +1,11 @@
+# Ignore temporary office files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Node
+node_modules/
+.env
+
+# MacOS
+.DS_Store
